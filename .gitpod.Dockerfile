@@ -1,6 +1,14 @@
 # Use the gitpod/workspace-full-vnc image as a base
 FROM gitpod/workspace-full-vnc
 
-# Install additional packages using gp command
+# Switch to root user temporarily to run apt-get commands
+USER root
+
+# Install additional packages for GUI development
+RUN apt-get update \
+    && apt-get install -y openjfx libopenjfx-java matchbox \
+    && apt-get clean \
+    && rm -rf /var/cache/apt/* /var/lib/apt/lists/* /tmp/*
+
+# Switch back to the non-root user
 USER gitpod
-RUN gp install openjfx libopenjfx-java matchbox
