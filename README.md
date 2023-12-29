@@ -7,4 +7,12 @@ Running a javafx application on an external environment can be a tedious and exh
 * Select "Open Browser" - This will open a new browser tab on which your javaFX GUI will be displayed when we run the program.
 * Go back to the tab in which you have Gitpod running. You will see a terminal window at the bottom of the screen. One of the tabs will say Open Ports. Kill that tab. Now you should see a terminal prompt. Run the following command: 
 `javac javafxapplication4.java && java javafxapplication4`
+
+
+![Screenshot 2023-12-29 094204](https://github.com/Chady00/JavaFX-Deployment-Workflow-Gitpod/assets/84717550/68edbf0b-7c4f-4774-99dd-7b6898dd72bb)
+
 * Go back to the other tab you opened and you should be able to see a basic JavaFX GUI. Refresh the tab if it looks grey or has become disconnected.
+  
+![Screenshot 2023-12-29 094230](https://github.com/Chady00/JavaFX-Deployment-Workflow-Gitpod/assets/84717550/f9618af1-f0ca-4ce3-8971-794c665b693a)
+
+This should create 
