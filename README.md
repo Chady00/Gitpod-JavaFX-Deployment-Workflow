@@ -1,7 +1,7 @@
 # JavaFX Gitpod javaFx Deployment:
 Running a javafx application on an external environment can be a tedious and exhaustive task. Deploying JavaFX applications often involves managing numerous dependencies, and their inclusion can be a complex task. To simplify this process, I opted for Gitpod, providing a streamlined and straightforward deployment solution.
 ### To run this JavaFX program on Gitpod:  
-* First open his repository on Gitpod by clicking the below button
+* First open your repository on Gitpod by clicking the below button
     [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/danielcregg/javaFX-gitpod-helloworld-basic)
 * When you have this repository open in Gitpod click on the ports button in the blue bar at the bottom of the Gitpod screen.
 * Select "Open Browser" - This will open a new browser tab on which your javaFX GUI will be displayed when we run the program.
