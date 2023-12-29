@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="204.0" layoutY="121.0" minHeight="16" minWidth="69" prefHeight="82.0" prefWidth="423.0" text="Hospital Application">
+         <font>
+            <Font name="System Bold" size="43.0" />
+         </font></Label>
+      <Button fx:id="button11" layoutX="280.0" layoutY="562.0" onAction="#changeScreenButtonPushed" prefHeight="126.0" prefWidth="240.0" text="Start Day" textFill="#122cb8">
+         <font>
+            <Font name="System Bold" size="37.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

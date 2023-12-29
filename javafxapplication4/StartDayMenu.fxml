@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="895.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication4.FXMLDocumentController">
+   <children>
+      <Button layoutX="1.0" layoutY="779.0" mnemonicParsing="false" onAction="#EndDay" prefHeight="114.0" prefWidth="800.0" text="End Day">
+         <font>
+            <Font name="Segoe UI Light" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="-3.0" layoutY="527.0" mnemonicParsing="false" onAction="#openPatientForm" prefHeight="120.0" prefWidth="416.0" text="Add Patient" textFill="#22b9e8">
+         <font>
+            <Font name="Segoe UI Semilight" size="35.0" />
+         </font>
+      </Button>
+      <Button layoutX="413.0" layoutY="645.0" mnemonicParsing="false" onAction="#openCancelStage" prefHeight="134.0" prefWidth="388.0" text="Cancel Patient" textFill="#da0f0f">
+         <font>
+            <Font name="Segoe UI Light" size="35.0" />
+         </font>
+      </Button>
+      <Button alignment="TOP_CENTER" contentDisplay="TOP" layoutX="-3.0" layoutY="645.0" mnemonicParsing="false" onAction="#OpenCheckStat" prefHeight="134.0" prefWidth="416.0" text="Check Patient Status" textFill="#3ad01c">
+         <font>
+            <Font name="Segoe UI Light" size="35.0" />
+         </font>
+      </Button>
+      <Button layoutX="413.0" layoutY="527.0" mnemonicParsing="false" onAction="#Remove" prefHeight="120.0" prefWidth="388.0" text="Remove Patient" textFill="#2d12b5">
+         <font>
+            <Font name="Segoe UI Light" size="35.0" />
+         </font>
+      </Button>
+      <Label fx:id="statusCount" alignment="CENTER" layoutX="140.0" layoutY="673.0" prefHeight="114.0" prefWidth="109.0" text="_">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <TableView fx:id="QueueTable" layoutX="1.0" prefHeight="527.0" prefWidth="800.0">
+        <columns>
+          <TableColumn fx:id="numCol" prefWidth="69.0" text="# in Queue" />
+          <TableColumn fx:id="nameCol" prefWidth="119.0" text="Name" />
+            <TableColumn fx:id="pIDCol" prefWidth="85.0" text="Patient ID" />
+            <TableColumn fx:id="condCol" prefWidth="129.0" text="Condition" />
+            <TableColumn fx:id="dptCol" prefWidth="154.0" text="Category" />
+            <TableColumn fx:id="urgentCol" prefWidth="106.0" text="Covid " />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
