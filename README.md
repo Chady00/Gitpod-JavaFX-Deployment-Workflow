@@ -15,4 +15,6 @@ Running a javafx application on an external environment can be a tedious and exh
   
 ![Screenshot 2023-12-29 094230](https://github.com/Chady00/JavaFX-Deployment-Workflow-Gitpod/assets/84717550/f9618af1-f0ca-4ce3-8971-794c665b693a)
 
-This should create 
+This should create a VNC (Virtual Network Computing) environment for graphical user interface:
+
+![Screenshot 2023-12-29 094241](https://github.com/Chady00/JavaFX-Deployment-Workflow-Gitpod/assets/84717550/6d82bdb0-f08e-4663-8099-a2d0f0affcd2)
